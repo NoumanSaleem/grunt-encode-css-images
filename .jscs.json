@@ -1,0 +1,18 @@
+{
+	"requireCurlyBraces": ["else", "for", "while", "do", "try", "catch"],
+	"requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch", "function"],
+	"requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
+	"disallowSpacesInsideArrayBrackets": true,
+	"disallowSpacesInsideParentheses": true,
+	"requireSpacesInsideObjectBrackets": "allButNested",
+	"disallowSpaceAfterObjectKeys": true,
+	"disallowLeftStickedOperators": ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+	"requireRightStickedOperators": ["!"],
+	"disallowRightStickedOperators": ["?", "+", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+	"requireLeftStickedOperators": [","],
+	"disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+	"disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+	"requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!=="],
+	"requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!=="],
+	"disallowKeywordsOnNewLine": ["else"]
+}
